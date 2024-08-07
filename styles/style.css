@@ -117,3 +117,22 @@ strong {
     font-size: 1.5rem;
     font-weight: 400;
 }
+
+@media (max-width: 1200px) {
+    .menu {
+        padding: 10%;
+    }
+
+    .m_link{
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .a_conteudo {
+        width: auto;
+    }
+}
